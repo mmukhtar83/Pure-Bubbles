@@ -1,0 +1,85 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pure Bubbles - Social Links</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="nav.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script>
+    window.addEventListener('DOMContentLoaded', () => {
+            VANTA.BIRDS({
+            el: "#vanta",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: true,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            backgroundAlpha: 0.0,
+            color2: 0xff00f0,
+            wingSpan: 40.00,
+            separation: 100.00,
+            alignment: 77.00,
+            cohesion: 5.00,
+            quantity: 1.00
+        })
+        setTimeout(() => {
+            const main = document.querySelector('main')
+            main.style.opacity = 1
+            main.style.filter = 'blur(0px)'
+        }, 1000)
+    })
+</script>
+</head>
+<body>
+    <div id="vanta"></div>
+    <main>
+        <header>
+            <img src="./Images/WhatsApp Image 2025-01-04 at 18.01.48_c52ce1d7.jpg"/>
+            <h1>Pure Bubbles</h1>
+        </header>
+        <ul>
+            <li>
+                <a href="https://www.facebook.com/share/18vy6o9C3K/?mibextid=LQQJ4d" target="_blank">
+                    <img src="./Images/facebook.png" alt="Facebook" width="20" />
+                    Facebook
+                </a>
+            </li>
+            <li>
+                <a href="https://chat.whatsapp.com/DCZehN1j3zSDBbuzi5AVU5" target="_blank">
+                    <img src="./Images/whatsapp.png" alt="WhatsApp" width="20" />
+                    WhatsApp
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/purebubbles.eg" target="_blank">
+                    <img src="./Images/instagram.png" alt="instagram" width="20" />
+                    instagram
+                </a>
+            </li>
+            <li>
+                <a href="https://www.tiktok.com/@purebubbles.eg" target="_blank">
+                    <img src="./Images/tik-tok.png" alt="TikTok" width="20" />
+                    TikTok
+                </a>
+            </li>
+            <li>
+                <a href="https://t.me/+qq-Jr8j2Mzw5NjFk" target="_blank">
+                    <img src="./Images/telegram.png" alt="Telegram" width="20" />
+                    Telegram
+                </a>
+            </li>
+        </ul>
+        <div class="div"></div>
+    </main>
+    <footer>
+         <p>&copy; 2025 Pure Bubbles. All rights reserved.</p> 
+         <p>Designed by Team 4 Wolfs</p>
+        </footer>
+</body>
+</html>
